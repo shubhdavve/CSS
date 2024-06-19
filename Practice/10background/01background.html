@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background</title>
+    <style>
+        div{
+            border: 10px dashed rgb(100, 133, 255);
+            height: 500px;
+            margin: 20px 0px;
+            font-size: 30px;
+            color: aquamarine;
+
+        }
+        .background-attachment{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+            background-attachment: scroll;
+           background-attachment: fixed;
+            
+        }
+        .background-clip{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+            background-clip:content-box;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+        }
+        .background-color{
+            background-color: rgb(211, 147, 147);
+            color: rgb(0, 0, 0);
+        }
+        .background-image{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+        }
+       
+        .background-origin{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+            background-repeat: no-repeat;
+            padding: 100px;
+            background-origin: border-box;
+            background-origin: padding-box;
+            background-origin: content-box;
+            
+        }
+        .background-position{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+            background-repeat: no-repeat;
+         
+            background-position: center;
+           
+            background-size: 600px;
+        }
+          
+            
+        
+        .background-repeat{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+           
+            background-repeat: repeat-x;
+           background-size: 200px;
+        }
+        .background-size{
+            background-image: url(../../../HTML/images/BEVYLOGO.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-size: cover;
+            background-size: 200px;
+        }
+        .background-shorthand{
+            border: 10px dotted rgb(98, 98, 173);
+          
+            background: url(../../../HTML/images/BEVYLOGO.png)no-repeat center center/cover;
+        }
+        .background-multiple{
+            background-image: url(../../../HTML/images/BEVYLOGO.png), url(../../../HTML/images/finalbevy.jpeg);
+            background-size: 200px, 200px;
+            background-repeat: no-repeat;
+            background-position: center, right;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Background In CSS</h1>
+    <hr />
+    
+
+    <hr>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="background-shorthand">background-shorthand</div>
+    <div class="background-multiple">background-multiple</div>
+  </body>
+</html>
