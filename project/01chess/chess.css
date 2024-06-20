@@ -1,0 +1,38 @@
+.container {
+
+    height: 672px;
+    width:100%;
+ box-sizing:content-box;
+ border:2px solid #000;
+   margin: auto;
+   text-align: center;
+   background-color: #73b16a;
+   
+   
+  
+
+  }
+  .row{
+
+    height: 84px;
+    width:100%;
+    
+  }
+  .dark{
+
+    height: 84px;
+    width:184px;
+    background-color:#769556;
+    display: inline-block;
+    
+    }
+
+.light{
+
+    height: 84px;
+    width:184px;
+    background-color: #edefd1;
+    display: inline-block;
+    
+
+}
