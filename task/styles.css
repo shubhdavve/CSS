@@ -1,88 +1,259 @@
-body {
-    font-family: Arial, sans-serif;
-   
-}
-
-header {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* navbar */
+  .nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .main {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: #000000;
-    
-}
-
-.logo {
-    font-size: 20px;
+  }
   
+  .UberEatsHome {
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    font-family: Roboto;
+    font-size: 22px;
+  }
+  .login {
+    margin-right: 20px;
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+  }
+  .white button {
+    margin-bottom: 5px;
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 500px;
+    background-color: #ffffff;
+  }
   
-    
-}
-
-nav ul button {
-    width:100px;
-    border:none;
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
-    font-size: 20px;
-}
-.sign{
-    background-color:white ;
+  .white button a {
     color: black;
-
-}
-   
-
-
-
-.bg{
-    background-image: url('../images/MAIN.PNG');
-    background-size:cover;
-    background-position: center;
-    height: 650px;
-   display: flex;
-   
-    
-    color: #0b0b0b;
-    
-}
- .deli {
-    height: 50px;
-    width: 300px;
+    text-decoration: none;
+  }
+  .white :hover {
+    background-color: aliceblue;
+  }
+  .black button {
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    justify-content: center;
- 
- }
-
-.head {
-    font-size:50px;  
-    margin: 100px;
-}
-.time{
-    height: 50px;
-    width: 200px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin: 100px;
-
-}
-button{
-    width:150px;
-    height: 50px;
-    border:none;
-  
+    height: 40px;
+    width: 70px;
+    border-radius: 500px;
     background-color: black;
-    color: aliceblue;
+  }
+  .black button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .black :hover {
+    background-color: rgb(98, 98, 98);
+  }
+  .image {
+    background-image: url(../images/MAIN.PNG);
+    width: 100%;
+    height: 695px;
+    background-size: cover;
+  }
+  .image h1 {
+    padding-top: 200px;
+    font-size: 50px;
+    padding-left: 40px;
+    font-family: Roboto;
+  }
+  .near {
+    display: flex;
+    gap: 10px;
+  }
+  .sarch-container {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+  }
+  .sarch-container i {
     font-size: 20px;
+  }
+  .sarch-container input {
+    font-family: Roboto;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .Deliver {
+    background-color: rgb(255, 255, 255);
+    width: 14%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .Deliver input {
+    width: 60%;
+    font-family: Roboto;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+  }
+  .Deliver i {
+    width: 10%;
+  }
+  .fj-fk-fl {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .Search-here {
+    background-color: rgb(255, 255, 255);
+    width: 9%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
     border-radius: 10px;
-    
-
-}
-
-
-
+    background-color: black;
+    padding: 13px 20px;
+    font-family: poppins;
+  }
   
-  
+  .Search-here a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .Search-here:hover {
+    background-color: rgb(98, 98, 98);
+  }
+  .Or-Sign-In {
+    padding-left: 40px;
+    padding-top: 15px;
+    color: black;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .Or-Sign-In a {
+    color: black;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .parent {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 80px;
+  }
+  .box-1 {
+    width: 33%;
+    height: 250px;
+    display: block;
+    display: inline;
+    display: inline-block;
+  }
+  .box-1 img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .box-1 h2 {
+    font-size: 33px;
+    font-family: Roboto;
+  }
+  .box-1 a {
+    font-family: Roboto;
+    color: black;
+  }
+  .box-2 {
+    width: 33%;
+    height: 250px;
+    display: block;
+    display: inline;
+    display: inline-block;
+  }
+  .box-2 img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .box-2 h2 {
+    font-size: 33px;
+    font-family: Roboto;
+  }
+  .box-2 a {
+    font-family: Roboto;
+    color: black;
+  }
+  .box-3 {
+    width: 33%;
+    height: 250px;
+    display: block;
+    display: inline;
+    display: inline-block;
+  }
+  .box-3 img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .box-3 h2 {
+    font-size: 33px;
+    font-family: Roboto;
+  }
+  .box-3 a {
+    font-family: Roboto;
+    color: black;
+  }
+  .map {
+    display: flex;
+    justify-content: space-between;
+  }
+  .map h2 {
+    font-family: Roboto;
+    font-size: 33px;
+    padding-left: 50px;
+  }
+  .map a {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-right: 50px;
+    color: black;
+    font-weight: 500;
+  }
+  .map-image img {
+    width: 97%;
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  .taxt {
+    width: 100%;
+    display: flex;
+    gap: 300px;
+    padding-left: 50px;
+  }
+  .row {
+    padding-top: 30px;
+  }
+  .Paso {
+    padding-top: 25px;
+  }
+  .row a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+  }
