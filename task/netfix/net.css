@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+}
+.bg{
+    background-image: url(../../images/netflix/bgimage.jpg);
+   height: 100vh;
+   
+}
+
+button{
+    margin: 30px;
+}
+.but1{
+    margin-left: 70%;
+    background: transparent;
+    height: 40px;
+    width: 120px;
+}
+.but2{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 90px;
+    border-radius:7px;
+    border:none;
+}
