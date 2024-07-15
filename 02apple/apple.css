@@ -1,15 +1,31 @@
 * {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  
+ 
+ 
   
 }
+.fullnav{
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: #ffffffec;
+}
+
 .navbar {
-  width: 73%;
+  width: 70%;
   margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding:  3px 15px;
-    background-color: #fff;
+    padding:  3px 2px 0px 50px;
+   
+  
+   
+   
+    
    
   }
   .navbar-nav {
@@ -17,6 +33,7 @@
     list-style: none;
     padding: 0;
     margin: 0 auto;
+    
    
   }
   
@@ -31,7 +48,7 @@
     text-decoration: none;
     color: #515151;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14fpx;
     
    
   }
@@ -44,23 +61,396 @@
 .topnav{
   display: flex;
   gap: 20px;
-  padding-left: 230px;
-  margin-top: 20px;
-  background-color: #e5e5e5;
+  padding-left: 280px;
+  margin-top: 0px;
+  background-color: #ebebec;
   height: 30px;
   align-items: center;
+  
 
  
 }
 .topnav>a{
   text-decoration: none;
   color: #030000;
-  font-size: 15px;
+  font-size: 12px;
+  
+}
+.getiphone{
+ padding-left: 430px; 
+ padding-top: 5px;
+ 
+}
+.buymac{
+   background-color:#f5f5f7 ; 
+}
+.buymac>img{
+  padding-left: 500px;
+  width: 450px;
+  padding-top: 50px;
+}
+.shop{
+  padding-left: 700px;
+  padding-top: 5px;
+}
+.shop>button{
+  background-color: #fff;
+  color: rgb(0, 110, 255);
+ border-style: double;
+ border-color:  rgb(0, 110, 255);
+ border-radius: 30px;
+ width: 100px;
+ height: 50px;
+ font-size: 18px;
+ 
+
+}
+.university{
+  padding-top: 50px;
+}
+.unistu{
+  background-image: url(../images/apple/unistu1.jpg);
+  height: 220px;
+  background-repeat: no-repeat;
+padding-top: 370px;
+color: #fff;
+
+}
+.unistu>h1{
+  font-size: 45px;
+  padding-left: 550px;
+}
+.unistu>p{
+  font-size: 30px;
+  padding-left: 630px;
+}
+.learn>button{
+  background-color: #fff;
+  color:white;
+ border-style: double;
+ background-color:rgb(0, 110, 255) ;
+ border-radius: 30px;
+ width: 130px;
+ height: 50px;
+ font-size: 15px;
+
+}
+.learn{
+  padding-left: 680px;
+ 
+
+}
+.ai{
+  background-image: url(../images/apple/ai.jpg);
+  height: 600px ;
+}
+.ai>h1{
+  padding-left: 38%;
+  padding-top: 2%;
+  font-size: 45px;
+}
+.ai>h3{
+  padding-left: 43%;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.ai>p{
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 37%;
+
+}
+.film{
+  display: flex;
+  gap: 20px;
+  padding-left: 40%;
+  padding-top: 15px;
+}
+.more>button{
+
+  background-color: #fff;
+  color:white;
+ border-style: double;
+ background-color:rgb(0, 110, 255) ;
+ border-radius: 30px;
+ width: 130px;
+ height: 50px;
+ font-size: 15px;
+ border: none;
+}
+.watchfilm>button{
+  background-color: #fff;
+  color: rgb(0, 110, 255);
+ border-style: double;
+ border-color:  rgb(0, 110, 255);
+ border-radius: 30px;
+ width: 180px;
+ height: 50px;
+ font-size: 18px;
+}
+.sec1{
+  display: flex;
+  /* background-color:#f5f5f7 ;  */
+  gap: 1%;
+
+
+}
+.macbook{
+  background-image:url(../images/apple/macair3.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;  
+ 
+}
+.macbook>h1{
+  padding-top: 3%;
+  padding-left: 35%;
+  font-size: 40px;
+}
+.macbook>p{
+  padding-left: 37%;
+  font-size: 20px;
+}
+.buttons2{
+  display: flex;
+  gap: 15px;
+  padding-left: 36%;
+  padding-top: 3%;
+}
+.learnmore>button{
+  background-color: #fff;
+  color:white;
+ border-style: double;
+ background-color:rgb(0, 110, 255) ;
+ border-radius: 30px;
+ width: 100px;
+ height: 40px;
+ font-size: 12px;
+ border: none;
+
+}
+.Buy>button{
+  background-color: #fff;
+  color: rgb(0, 110, 255);
+ border-style: double;
+ border-color:  rgb(0, 110, 255);
+ border-radius: 30px;
+ width: 80px;
+ height: 40px;
+ font-size: 14px;
+
+}
+
+.ipad{
+  background-image:url(../images/apple/ipadair.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;
+  
+
+
+}
+.ipad>h1{
+  padding-top: 3%;
+  padding-left: 37%;
+  font-size: 40px;
+
+}
+.ipad>p{
+  padding-left: 30%;
+  font-size: 20px;
+
+}
+.sec2{
+  display: flex;
+  /* background-color:#f5f5f7 ;  */
+  gap: 1%;
+
+
+}
+.ipadpro{
+  background-image:url(../images/apple/ipadpro.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;
+  
+  
+  
+ 
+}
+.ipadpro>h1{
+  padding-top: 3%;
+  padding-left: 39%;
+  font-size: 40px;
+  color: #fff;
+}
+.ipadpro>p{
+  padding-left: 30%;
+  font-size: 20px;
+  color: #fff;
+
+
+
+}
+
+.macbookpro{
+  background-image:url(../images/apple/macbookpro.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;
+  
+
+
+}
+.macbookpro>h1{
+  padding-top: 3%;
+  padding-left: 34%;
+  font-size: 40px;
+
+}
+.macbookpro>p{
+  padding-left: 34%;
+  font-size: 20px;
+}
+.sec3{
+  display: flex;
+  /* background-color:#f5f5f7 ;  */
+  gap: 1%;
+
+
+}
+.iphone{
+  background-image:url(../images/apple/iphone.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;
+  
+  
+  
+ 
+}
+.iphone>h1{
+  padding-top: 3%;
+  padding-left: 33%;
+  font-size: 40px;
+  color: #fff;
+
+}
+.iphone>p{
+  padding-left: 30%;
+  font-size: 20px;
+  color: #fff;
+}
+.tradein{
+  background-image:url(../images/apple/trade.jpg);
+  height: 600px;
+  background-repeat: no-repeat;
+  width: 49.5%;
+}
+.tradein>h1{
+  padding-top: 3%;
+  padding-left: 37%;
+  font-size: 40px;
+}
+.tradein>p{
+  padding-left: 30%;
+  font-size: 20px;
+
+}
+.tradei>button{
+  background-color: #fff;
+  color:white;
+ border-style: double;
+ background-color:rgb(0, 110, 255) ;
+ border-radius: 30px;
+ width: 150px;
+ height: 40px;
+ font-size: 15px;
+ border: none;
+
+}
+.tradei{
+  padding-left: 38%;
+  padding-top: 3%;
+}
+.movies{
+  background-color:#f5f5f7 
+}
+.container{
+  overflow: hidden;
+  max-width: 1250px;
+;
+  margin: 0 auto;
+
+  
+}
+.slider {
+  display: flex;
+  width: 400%;
+  animation: slide 20s infinite;
+ 
+  
+}
+
+.slider>img {
+  width: 25%;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-25%); }
+  50% { transform: translateX(-50%); }
+  75% { transform: translateX(-75%); }
+  100% { transform: translateX(0%); }
   
 }
 
 
 
+
+
+	
+  .foot {
+    background-color:#f5f5f7 
+    
+
+ 
+  }
+.footer{
+ width: 70%;
+ margin: auto;
+ padding-top: 2%;
+
+}
+.footer>p{
+line-height: 200%;
+font-size: 12px;
+color: #a4a2a2;
+}
+.foot2>p{
+  line-height: 250%;
+  font-size: 12px;
+  color: #a4a2a2;
+}
+.listfooter{
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content:space-around;
+  padding-top: 2%;
+  background-color:#f5f5f7 ;
   
+
+}
+.listfooter>ul{
+  line-height: 250%;
+  list-style: none;
+  color: #a4a2a2;
+}
+.listfooter h1{
+  color: #030000;
+}
+
+
   
   
