@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+          * {
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            height: 100vh;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+          }
+          .one img {
+          }
+          .one {
+            border: 2px solid black;
+          }
+          #one1 {
+            grid-column: span 3;
+            background: url("../images/grid/images.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one2 {
+            background: url("../images/grid/Spider-Man-PC-release-date-requirements-8ba6043.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one3 {
+            background: url("../images/grid/Spider-Man_PS4_Selfie_Photo_Mode_LEGAL.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one4 {
+            background: url("../images/grid/spiderman-background-oycfyb1ksermw921.jpg");
+            grid-column: span 2;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one5 {
+            background: url("../images/grid/spiderman-p4ashmgeamn2mvkn.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one6 {
+            background: url("../images/grid/1.jpeg");
+            grid-column: span 2;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          #one7 {
+            background: url("../images/grid/2.jpeg");
+            grid-column: span 2;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          /* Media Queries */
+      @media (max-width: 1200px) {
+        .container {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        #one1 {
+          grid-column: span 2;
+        }
+        #one4, #one6, #one7 {
+          grid-column: span 3;
+        }
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        #one1 {
+          grid-column: span 2;
+        }
+        #one4, #one6, #one7 {
+          grid-column: span 2;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+        #one1, #one4, #one6, #one7 {
+          grid-column: span 1;
+        }
+      }
+          /* #one8{
+                background-color: cadetblue;
+    
+            } */
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <div class="one" id="one1"></div>
+          <div class="one" id="one2">2</div>
+          <div class="one" id="one3">3</div>
+          <div class="one" id="one4">4</div>
+          <div class="one" id="one5">5</div>
+          <div class="one" id="one6">6</div>
+          <div class="one" id="one7">7</div>
+          <!-- <div class="one" id="one8">8</div> -->
+          <!-- <div class="one" id="one9">9</div>
+            <div class="one" id="one10">10</div>
+            <div class="one" id="one11">11</div> -->
+          <!-- <div class="one" id="one12">12</div> -->
+          <!-- <div class="one" id="one13">13</div> -->
+          <!-- <div class="one" id="one14">14</div> -->
+          <!-- <div class="one" id="one15">15</div>
+            <div class="one" id="one16">16</div> -->
+        </div>
+      </body>
+    </html>
